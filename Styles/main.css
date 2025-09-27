@@ -9,6 +9,7 @@
 }
 
 /*--Fonts--*/
+
 * {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -49,6 +50,7 @@ ul {
 li {
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
@@ -619,16 +621,29 @@ footer img {
 
 .skill-ref-list {
     padding: 20px;
-    list-style: disc; /*Displays bullet points*/
+    list-style: none; /*Displays bullet points*/
 }
 
 #knowledge-list {
-    margin-left: 10%; /*Spacing from the left*/
+    margin-left: 43%; /*Spacing from the left*/
     margin-right: 10%; /*Spacing from the right*/
 }
 
+.nestedList {
+    font-size: 15px;
+    list-style: none;
+    margin-left: 3%;
+}
+
+#ref-list-ending {
+    list-style: none;
+    margin-left: -2.5%;
+    margin-top: 5%;
+    font-style: italic;
+}
+
 #qualification-list {
-    margin-left: 25%; /*Spacing from the left*/
+    margin-left: 37%; /*Spacing from the left*/
 }
 
 /*--References section--*/
@@ -1430,3 +1445,4 @@ footer img {
         gap: 7rem; /*Adjusts gap*/
     }   
 }
+
