@@ -1,2 +1,2 @@
 # portforlioWebsite
-Final Project for Web Development Module 
+My portfolio & resume website
